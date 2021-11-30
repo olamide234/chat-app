@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta name="viewport" content="width=375px, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap">
+    <link rel="shortcut icon" href="./images/favicon-32x32.png"  size="32x32" type="image/png">
+    <title>Frontend Mentor | Chat App</title>
+</head>
+<body class="main-content">
+    <div class="container-background">
+        <div class="L-image">
+            <span class="L-image-vert"></span><span class="L-image-horiz"></span>
+        </div>
+        <div class="O-image">
+            <div class="O-image-main">
+            </div>
+        </div>
+        <div class="slash-image spacing1">&#47;</div>
+        <div class="slash-image spacing2">&#47;</div>
+        
+        <!-- <div>
+            <span class="slash-part spacing3">&#47;</span>
+            <span class="slash-part spacing4">&#92;</span><br>
+            <span class="slash-part spacing3">&#47;</span>
+            <span class="slash-part spacing4">&#92;</span>
+        </div> -->
+
+        <div class="group-dots">
+            <div class="dot-columnA">
+                <div class="dot u"></div><div class="dot x"></div>
+                <div class="dot v"></div><div class="dot y"></div>
+                <div class="dot w"></div><div class="dot z"></div>
+            </div><br>
+            <div class="dot-columnB">
+                <div class="dot a"></div><div class="dot d"></div>
+                <div class="dot b"></div><div class="dot e"></div>
+                <div class="dot c"></div><div class="dot f"></div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="purple tube">----</div>
+        <div class="lower-tube">
+            <div class="pale-pink tube"></div>
+        </div>
+        <div class="phone-container">
+            <div class="phone">
+                <div class="white-tab">----</div>
+                <div class="top-nav">
+                    <div class="nav-content">
+                        <div class="lt-nav">&lt;</div>
+                        <img src="images/avatar.jpg" alt="user's dp" class="dp">
+                        <div class="nav-text">
+                            <h2>Samuel Green</h2>
+                            <p>Available to Walk</p>
+                        </div>
+                        <div class="menu"></div>
+                    </div>
+                </div>
+                <div class="chat-content">
+                    <div class="left-text chat">
+                        That sounds great. I’d be happy with that.
+                    </div>
+                    <div class="left-text chat">
+                        Could you send over some pictures of your dog, please?
+                    </div>
+                    <div class="images-sent">
+                        <img src="images/dog-image-1.jpg" alt="">
+                        <img src="images/dog-image-2.jpg" alt="">
+                        <img src="images/dog-image-3.jpg" alt="">
+                    </div>
+                    <div class="right-text chat">
+                        Here are a few pictures. She’s a happy girl!
+                    </div>
+                    <div class="right-text chat spec">
+                        Can you make it?
+                    </div>
+                    <div class="left-text chat">
+                        She looks so happy! The time we discussed works.
+                        How long shall I take her out for?
+                    </div>
+                    <ul class="timer">
+                        <li>
+                            <input type="radio" name="walk" value="30 minute walk" id="option-1">
+                        <!-- </li> -->
+                        <!-- <li> -->
+                            <label for="option-1">30 minute walk</label>
+                        </li>
+                        <li>
+                            <span class="a">$29</span>
+                        </li>
+                    </ul>
+                    <ul class="timer">
+                        <li>
+                            <input type="radio" name="walk" value="1hour walk" id="option-2">
+                            <label for="option-2">1 hour walk</label>
+                        </li>
+                        <li>
+                            <span class="a">$49</span>
+                        </li>
+                    </ul>
+                    <div class="in">
+                        <form method="post" id="nameform">
+                            <input type="text" id="mssg" name="mssg" placeholder="Type a message...">
+                        </form>
+                        <button type="submit" value="Submit" form="nameform">&gt;</button>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="app-text">
+            <h1>Simple booking</h1>
+            <p>Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+                discuss arrangements and make bookings. Once the walk has been completed you can rate 
+                your walker and book again all through the chat.</p>
+        </div>
+    </div>
+</body>
+</html>
